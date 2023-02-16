@@ -125,6 +125,24 @@ ss='cadena simple simple'
 print(sd,type(sd));
 print(ss,type(ss))
 s2='''Esto es 
-una multiple cadena'''
+una multiple cadena
+con             tab'''
 print(s2,type(s2))
+#segmentado
+print(s2)
+print("Segmento de cadenas")
+print(sd[2:6])
+print(sd[:5])
+print(sd[6:])
+print(sd[-6:-3])
+#sancada
+print(sd[0:10:1])
+print(sd[0:10:2])
+print(sd[0:10:3])
+
+cadena1="Hola"
+cadena2=(cadena1+" ")*5
+print(cadena2)
+cadena3=cadena2.upper()
+print(cadena3)
 #t[1]=12 opcion no valida en tupla
